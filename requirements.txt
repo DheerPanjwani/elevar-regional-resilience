@@ -1,0 +1,10 @@
+pandas
+numpy
+pyarrow
+scipy
+statsmodels
+scikit-learn
+shap
+factor_analyzer
+rapidfuzz
+matplotlib

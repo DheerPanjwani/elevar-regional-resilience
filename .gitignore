@@ -1,0 +1,26 @@
+# Raw data (see data/README.md)
+data/raw/
+*.csv
+!data/**/README*
+*.zip
+*.geojson
+*.dta
+*.shp
+
+# Fieldwork originals: never commit
+fieldwork/
+*.wav
+*.m4a
+*.mp3
+*.aac
+*.ogg
+*.heic
+*.jpg
+*.jpeg
+
+# Build and environment
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+~$*
