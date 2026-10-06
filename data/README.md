@@ -2,7 +2,7 @@
 
 ## Included (`processed/`)
 
-Small district-level outputs, enough to reproduce the factor analysis tables, the consumption-quintile result and the fifty-year comparison without the raw panels.
+Small district-level outputs (SHRUG-derived columns are CC BY-NC-SA 4.0; see the main README), enough to reproduce the factor analysis tables, the consumption-quintile result and the fifty-year comparison without the raw panels.
 
 | File | Rows | What it holds | Built in |
 | --- | --- | --- | --- |

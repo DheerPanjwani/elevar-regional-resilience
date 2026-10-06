@@ -60,7 +60,7 @@ data/
 
 Notebook cells are referred to by their original names (NB1 to NB6) in comments and in this README.
 
-The paper, presentation and research note on credit cycles are in this folder: DRIVE_LINK
+The paper, presentation and research note on credit cycles are available from the author on request.
 
 ## Reproducing
 
@@ -83,3 +83,14 @@ The notebooks were written for Google Colab and read raw data from `/content/dri
 ## Fieldwork
 
 Household interviews were carried out in Palghar (Maharashtra, 18 households) and Chittoor (Andhra Pradesh, 9 households) in 2026. The notes, audio and photographs are not in this repository.
+
+## Data sources and licences
+
+The processed files in `data/processed` and `outputs` are derived from two public sources, and anyone reusing them should cite both.
+
+- **SHRUG** (Development Data Lab): Asher, S., Lunt, T., Matsuura, R. and Novosad, P. (2021), "Development research at high geographic resolution: an analysis of night-lights, firms, and poverty in India using the SHRUG open data platform", *World Bank Economic Review* 35(4), 845–871. SHRUG is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 licence (CC BY-NC-SA 4.0). The SHRUG-derived columns in `data/processed/systematic_share.parquet` and the crosswalk in `data/processed/pc11_to_icrisat_bridge.csv` are shared under the same licence: non-commercial use only, with attribution, and any redistribution under the same terms.
+- **ICRISAT District Level Database** for Indian agriculture, apportioned series (International Crops Research Institute for the Semi-Arid Tropics, http://data.icrisat.org/dld/). Cite ICRISAT when using the exposure estimates or shock matrix.
+
+Portfolio footprints in NB5 were reconstructed from companies' public web pages and filings, not from internal data.
+
+The code and notebooks are shared for reference. No licence is granted for them beyond viewing and citation; please get in touch before reusing them.
