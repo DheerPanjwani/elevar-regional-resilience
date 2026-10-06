@@ -1,6 +1,8 @@
 # Raw data (see data/README.md)
 data/raw/
 *.csv
+!outputs/*.csv
+!data/processed/*.csv
 !data/**/README*
 *.zip
 *.geojson

@@ -8,3 +8,5 @@ shap
 factor_analyzer
 rapidfuzz
 matplotlib
+geopandas
+plotly
