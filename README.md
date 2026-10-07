@@ -68,7 +68,6 @@ The notebooks were written for Google Colab and read raw data from `/content/dri
 
 ## Known issues
 
-- **Hover labels on the resilience map** (NB1 cells 9–10) still show the original ICRISAT `nonfarm_worker_share`, which NB2 shows is broken. The corrected Census-based share should replace it before the map is shared again. The buffer index in NB1 also uses the broken column.
 - **Tamil Nadu** is measured on kharif (southwest monsoon) rainfall only. Close to half of its rain comes with the northeast monsoon, so its exposure figures are understated or noisy.
 - **Palghar** was carved out of Thane in 2014. All district data for the Palghar corridor are for undivided Thane, which is dominated by the Thane–Kalyan–Bhiwandi urban belt.
 - **Chittoor** is an Andhra Pradesh district and loads on region F3, not F5. Its shock correlation with the Palghar corridor is +0.24, so the two fieldwork corridors are not a diversified pair.
